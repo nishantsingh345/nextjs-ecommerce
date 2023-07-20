@@ -22,8 +22,11 @@ export default async function Home() {
           <div>
             <h1 className='text-5xl font-bold'>{productas[0].name}</h1>
             <p className='py-6'>{productas[0].description}</p>
-            <Link href={"/productas/" + productas[0].id} className='btn btn-primary'>
-              Check it Out
+             <Link
+              href={"/products/" + productas[0].id}
+              className="btn-primary btn"
+            >
+              Check it out
             </Link>
           </div>
       </div>
